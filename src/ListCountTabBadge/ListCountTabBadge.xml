@@ -1,0 +1,17 @@
+<widget id="ListCountTabBadge.widget.ListCountTabBadge" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>ListCountTabBadge</name>
+    <description>Dummy widget</description>
+    <icon/>
+    <properties>
+        <property key="tabName" type="string" required="false" defaultValue="">
+            <caption>Tab Name</caption>
+            <category>Appearance</category>
+            <description>Name of the tab to add the badge to. Be sure to put this widget directly below the list view.</description>
+        </property>
+        <property key="badgeClass" type="string" required="false" defaultValue="badge badge-primary">
+            <caption>Badge Class</caption>
+            <category>Appearance</category>
+            <description>Class of the badge</description>
+        </property>
+    </properties>
+</widget>
